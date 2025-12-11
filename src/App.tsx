@@ -10,7 +10,7 @@ function App() {
 
   useEffect(() => {
     // Fetch initial time from API
-    fetch('https://worldtimeapi.org/api/ip')
+    fetch(import.meta.env.VITE_API)
       .then((response) => response.json())
       .then((data: TimeResponse) => {
         setCurrentTime(new Date(data.datetime));
