@@ -1,0 +1,21 @@
+.clock-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.time {
+  font-size: 10rem;
+  font-weight: bold;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px 50px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
